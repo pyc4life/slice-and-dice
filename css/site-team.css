@@ -1,0 +1,39 @@
+.site-core-team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.site-team-member-article {
+    padding: 5em 0;
+    display: block;
+    flex: 0 1 18%;
+}
+
+.site-team-member-name {
+    font-weight: normal;
+}
+
+.site-team-member-position {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: #D05050;
+    padding-bottom: 1.4em;
+}
+
+.site-team-member-description {
+    font-weight: normal;
+}
+
+.site-team-member-article > ul {
+    display: flex;
+    margin-top: 2em;
+}
+
+.site-team-member-article > ul > li {
+    display: block;
+    padding: 0.5em 1em;
+    margin-right: 0.3em;
+    border: 1px solid #d8d8d8;
+    color: #b3b3b3;
+}

@@ -1,0 +1,51 @@
+.site-testimonials-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.site-testimonials-img-container {
+    flex: 0 1 50%;
+}
+
+.site-testimonials-img-container > img {
+    height: 100%;
+    width: 100%;
+}
+
+.site-testimonials-description {
+    flex: 0 1 50%;
+    padding: 10em 5em;
+    background-color: #58395F;
+    color: white;
+}
+
+.site-testimonials-description > p:first-child {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.6em;
+}
+
+.site-testimonials-description > p:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding-top: 1.4em;
+}
+
+.carousel-dots {
+    display: flex;
+    margin: 5em 0 0 10em;
+}
+
+.carousel-dots > div:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.carousel-dot1, .carousel-dot2, .carousel-dot3, .carousel-dot4, .carousel-dot5 {
+    height: 100%;
+    padding: 0.4em;
+    margin: 0.4em;
+    border-radius: 50%;
+    background-color: #91757E;
+}

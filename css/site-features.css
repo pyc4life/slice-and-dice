@@ -1,0 +1,21 @@
+.site-features-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6em 0;
+}
+
+.site-feature-article {
+    flex: 0 1 30%;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.site-feature-article > h4 {
+    padding: 1em 0;
+    text-transform: uppercase;
+}
+
+.site-feature-article > p {
+    font-weight: lighter;
+}

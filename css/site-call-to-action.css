@@ -1,0 +1,25 @@
+.site-call-to-action-section {
+    text-align: center;
+    padding: 6em 1em;
+}
+
+.site-call-to-action-section > h3 {
+    font-weight: lighter;
+}
+
+.site-call-to-action-section > p {
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.site-call-to-action-section > button {
+    border: none;
+    border-radius: 0.3em;
+    background-color: #D05050;
+    color: white;
+    padding: 0.8em 6em;
+    margin-top: 3em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 0.8em;
+}

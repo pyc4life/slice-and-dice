@@ -1,0 +1,61 @@
+.site-footer {
+    background-color: #343852;
+
+}
+
+.site-footer > div.site-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-weight: lighter;
+    color: #8691D8;
+}
+
+.site-location-section, .site-about-us-section, .site-share-section {
+    flex: 0 1 30%;
+    display: block;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.site-location-section > h4, .site-about-us-section > h4, .site-share-section > h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: white;
+}
+
+.site-share-section > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6em;
+}
+
+.site-share-section > ul > li {
+    border: 2px solid white;
+    padding: 0.4em 0.8em;
+    color: white;
+}
+
+.site-share-section > ul > li:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.site-copyright-section {
+    flex: 1 1 100%;
+    text-align: center;
+    color: gray;
+    font-weight: lighter;
+    background-color: #292D44;
+    padding: 1.8em 0;
+}
+
+.site-copyright-section > p > span {
+    color: white;
+}
+
+.site-copyright-section > p > span:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
