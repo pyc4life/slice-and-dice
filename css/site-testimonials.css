@@ -2,6 +2,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-height: 30em;
+    overflow: hidden;
+    position: relative;
 }
 
 .site-testimonials-img-container {
@@ -34,7 +37,8 @@
 
 .carousel-dots {
     display: flex;
-    margin: 5em 0 0 10em;
+    position: absolute;
+    right: 35em; bottom: 5em;
 }
 
 .carousel-dots > div:hover {

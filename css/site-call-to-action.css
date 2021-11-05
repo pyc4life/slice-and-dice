@@ -13,7 +13,7 @@
 }
 
 .site-call-to-action-section > button {
-    border: none;
+    border: 1px solid transparent;
     border-radius: 0.3em;
     background-color: #D05050;
     color: white;
@@ -22,4 +22,12 @@
     text-transform: uppercase;
     font-weight: lighter;
     font-size: 0.8em;
+    transition: 0.3s ease-in;
+}
+
+.site-call-to-action-section > button:hover {
+    color: #D05050;
+    border: 1px solid #D05050;
+    background-color: white;
+    cursor: pointer;
 }

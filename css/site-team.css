@@ -10,6 +10,16 @@
     flex: 0 1 18%;
 }
 
+.site-team-member-article > img {
+    transition: 0.2s ease-in;
+    transform: scale(1);
+}
+
+.site-team-member-article > img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .site-team-member-name {
     font-weight: normal;
 }
@@ -36,4 +46,11 @@
     margin-right: 0.3em;
     border: 1px solid #d8d8d8;
     color: #b3b3b3;
+    transition: 0.2s ease-in;
+}
+
+.site-team-member-article > ul > li:hover {
+    color:#d8d8d8;
+    border: 1px solid #b3b3b3;
+    cursor: pointer;
 }
